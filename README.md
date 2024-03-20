@@ -13,7 +13,7 @@ Requires VoidManager 1.0.3
 ---------------------
 
 ### 💡 : Function :
-- Removes stat turret caps. Probably other stat caps too.
+- Removes turret stat caps. Probably other stat caps too.
 
 ### 🎮 : Client Usage :
 
