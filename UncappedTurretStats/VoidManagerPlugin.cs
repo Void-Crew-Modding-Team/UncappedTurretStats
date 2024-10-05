@@ -1,4 +1,5 @@
-﻿using VoidManager.MPModChecks;
+﻿using VoidManager;
+using VoidManager.MPModChecks;
 
 namespace UncappedTurretStats
 {
@@ -6,8 +7,10 @@ namespace UncappedTurretStats
     {
         public override MultiplayerType MPType => MultiplayerType.All;
 
-        public override string Author => "Dragon";
+        public override string Author => MyPluginInfo.PLUGIN_AUTHORS;
 
-        public override string Description => "Removes turret stat caps. Probably other stat caps too.";
+        public override string Description => MyPluginInfo.PLUGIN_DESCRIPTION;
+
+        public override string ThunderstoreID => MyPluginInfo.PLUGIN_THUNDERSTORE_ID;
     }
 }
